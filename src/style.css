@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  /* Font Size */
+  --xSmall-font: 1.4rem;
+  --small-font: 1.8rem;
+  --medium-font: 2.1rem;
+  --large-font: 4.8rem;
+  --xLarge-font: 7.8rem;
+
+
+  /* Colors */
+  --black-clr: #2D2D2D;
+  --white-clr: #ffffff;
+  --blue-clr: #0090FF;
+  --lightBlue-clr: #C2E4FF;
+  --lightOrange-clr: #FFDDC2;
+  --darkOrange-clr: #ED9E2D;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+
+  overflow-x: hidden;
+
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+}
+
+button, input {
+  border: none;
+  background-color: var(--white-clr);
+  outline: none;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.f-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.jobSpot__nav, .jobSpot__hero, .jobSpot__work, .jobSpot__category, .jobSpot__frame, .jobSpot__jobs, .jobSpot__us, .jobSpot__testimonial, .jobSpot__footer {
+  width: 100%;
+}
